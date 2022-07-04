@@ -1,0 +1,263 @@
+body {
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+#box {
+    width: 550px;
+    height: 310px;
+    background-color: rgb(60, 0, 120);
+}
+#clock {
+    background-image: url(./clock_logo@2x.png);
+    background-size: 100%;
+    width: 100px;
+    height: 37.7px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+.grid {
+    width: 210px;
+    height: 140px;
+    position: absolute;
+    top: 85px;
+    left: 150px;
+    border-radius: 6px;
+    background-color: white;
+}
+input {
+    width: 108px;
+    height: 15px;
+    color: rgb(81, 0, 157);
+    border: 1px solid rgb(81, 0, 157);
+}
+.grid1 {
+    display: grid;
+    column-gap: 100px;
+}
+#time1 {
+      font-size: 8px;
+      color: rgb(81, 0, 157);
+      position: relative;
+      top: 20px;
+      left: 30px;
+}
+#time2 {
+    font-size: 8px;
+    color: rgb(81, 0, 157);
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+#time3 {
+    font-size: 8px;
+    color: rgb(81, 0, 157);
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+#time4 {
+    font-size: 8px;
+    color: rgb(81, 0, 157);
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+ 
+#logos {
+    display: grid;
+    row-gap: 19px;
+    position: absolute;
+    top: 106px;
+    left: 160px;
+}
+.logo1 {
+    background-image: url(./wake_up.svg);
+    background-size: 100%;
+    width: 10px;
+    height: 10px;
+}
+.logo2 {
+    background-image: url(./lunch_time.svg);
+    background-size: 100%;
+    width: 10px;
+    height: 10px;
+}
+.logo3 {
+    background-image: url(./nap_time.svg);
+    background-size: 100%;
+    width: 10px;
+    height: 10px;
+}
+.logo4 {
+    background-image: url(./lunch_time.svg);
+    background-size: 100%;
+    width: 10px;
+    height: 10px;
+}
+select {
+    color: blue;
+    font-size: 6px;
+}
+
+#mrng {
+    width: 150px;
+    height: 10px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 149px;
+    background-color: rgb(99, 64, 147);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 60px 10px 1px; 
+}
+#alarm {
+    width: 90px;
+    height: 10px;
+    background-image: linear-gradient(90deg,rgb(119, 0, 255),rgb(255, 0, 217));
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 265px;
+    left: 150px;
+    border-radius: 2px;
+}
+#alarm:hover{
+    background-image: linear-gradient(90deg,rgb(255, 0, 217),rgb(119, 0, 255));
+} 
+
+#shedule {
+    width: 95px;
+    height: 38px;
+    background-color: rgb(99, 64, 147);
+    position: absolute;
+    font-size: 4.8px;
+    border-radius: 5px;
+    top: 265px;
+    left: 255px;
+    padding: 5px; 
+    color: rgb(222, 32, 194);  
+}
+#shedule1 {    
+    position: absolute;
+    font-size: 4.8px;
+    border-radius: 5px;
+    top: 265px;
+    left: 300px;
+    padding: 5px; 
+    color: rgb(222, 32, 194);  
+}
+ 
+.line1 {
+    height: 10px;
+    border-left: 1px solid rgb(170, 167, 167);
+}
+.line2 {
+    height: 10px;
+    border-left: 1px solid rgb(170, 167, 167);
+}
+.line3 {
+    height: 10px;
+    border-left: 1px solid rgb(170, 167, 167);
+}
+#lines {
+    position: absolute;
+    left: 165px;
+    top: 120px;
+} 
+#Time {
+    font-size:12px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    left: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+}
+
+#hours {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(249, 217, 250);
+    padding-top: 10px;
+}
+#minutes {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(249, 217, 250);
+    padding-top: 10px;
+}
+#seconds {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(249, 217, 250);
+    padding-top: 10px;
+}
+#session {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(205, 88, 255);
+    padding-top: 10px;
+    color: white;
+}
+#brakefast {
+    width: 200px;
+    height: 25px;
+    font-size: 8px;
+    color: rgb(136, 0, 255);
+    position: absolute;
+    top: 120px;
+    left: 370px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.zindex {
+    width: 190px;
+    height: 40px;
+    background-color: rgba(91, 217, 255, 0.611);
+    border-radius: 5px;
+    position: absolute;
+    top: 60px;
+    left: 377px;
+    z-index: 2;
+}
+.zindex1 {
+    width: 170px;
+    height: 40px;
+    background-color: rgba(104, 220, 255, 0.611);
+    border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    left: 388px;
+    z-index: 1;
+}
+
+#image {
+    background-image: url(./Component-1.svg);
+    background-size: 100%;
+    width: 200px;
+    height: 126px;
+    position: absolute;
+    top: 175px;
+    left: 370px;
+    border-radius: 5px;
+    z-index: 1;
+} 
+ 
+
+ 
